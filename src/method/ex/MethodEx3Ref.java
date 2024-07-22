@@ -4,7 +4,9 @@ public class MethodEx3Ref {
     public static void main(String[] args) {
         int balance = 10000;
 
+        //입금
         balance = deposit(balance, 1000);
+        //출금
         balance = withdraw(balance, 2000);
 
         System.out.println("최종잔액: " + balance + "원");
